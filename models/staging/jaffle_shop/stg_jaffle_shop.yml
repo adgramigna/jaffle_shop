@@ -16,6 +16,7 @@ models:
               to: ref('stg_customers')
               field: customer_id
       - name: status
+        description: '{{ doc("order_status") }}'
         tests:
           - accepted_values:
               values:
