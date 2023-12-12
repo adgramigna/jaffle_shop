@@ -2,3 +2,6 @@
 target/
 dbt_packages/
 logs/
+
+#Client work not for github
+analyses/one_medical
