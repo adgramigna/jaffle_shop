@@ -5,3 +5,5 @@ logs/
 
 #Client work not for github
 analyses/one_medical
+
+.DS_Store
