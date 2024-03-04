@@ -29,3 +29,9 @@ with
     )
 
 select * from final
+union all
+select
+    508 as order_id
+    , 509 as customer_id
+    , date('2024-03-03') as order_date
+    , -1 as amount
