@@ -10,3 +10,7 @@ analyses/one_medical
 random_numbers.ipynb
 
 old-artifacts/
+
+edr_target/
+
+.env
