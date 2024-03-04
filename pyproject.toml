@@ -27,7 +27,8 @@ classifiers = [
 dependencies = [
   "dbt-snowflake==1.7.0",
   "sqlfluff==2.3.5",
-  "sqlfluff-templater-dbt==2.3.5"
+  "sqlfluff-templater-dbt==2.3.5",
+  "elementary-data==0.14.1"
 ]
 
 [project.urls]
