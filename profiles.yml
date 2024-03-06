@@ -2,7 +2,8 @@ jaffle_shop_profile:
   outputs:
     dev:
       account: "{{ env_var('DBT_SNOWFLAKE_ACCOUNT') }}"
-      authenticator: externalbrowser
+      # private_key_path: "rsa_key.p8"
+      private_key: "{{ env_var('DBT_SNOWFLAKE_PRIVATE_KEY') }}"
       database: "{{ env_var('DBT_SNOWFLAKE_DATABASE') }}"
       role: "{{ env_var('DBT_SNOWFLAKE_ROLE') }}"
       schema: "{{ env_var('DBT_SNOWFLAKE_SCHEMA') }}"
@@ -16,7 +17,8 @@ elementary:
   outputs:
     dev:
       account: "{{ env_var('DBT_SNOWFLAKE_ACCOUNT') }}"
-      authenticator: externalbrowser
+      # private_key_path: "rsa_key.p8"
+      private_key: "{{ env_var('DBT_SNOWFLAKE_PRIVATE_KEY') }}"
       database: "{{ env_var('DBT_SNOWFLAKE_DATABASE') }}"
       role: "{{ env_var('DBT_SNOWFLAKE_ROLE') }}"
       schema: "{{ env_var('DBT_SNOWFLAKE_SCHEMA_ELEMENTARY') }}"
