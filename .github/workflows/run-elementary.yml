@@ -40,12 +40,12 @@ jobs:
       # - name: Check Freshness of dbt models
       #   run: dbt source freshness
 
-      - name: Run Elementary
-        uses: elementary-data/run-elementary-action@v1.12
-        with:
-          warehouse-type: snowflake
-          adapter-version: 1.7.0
-          edr-command: edr report
+      # - name: Run Elementary
+      #   uses: elementary-data/run-elementary-action@v1.12
+      #   with:
+      #     warehouse-type: snowflake
+      #     adapter-version: 1.7.0
+      #     edr-command: edr report
 
       - name: Deploy to Github Pages
         uses: peaceiris/actions-gh-pages@v3
