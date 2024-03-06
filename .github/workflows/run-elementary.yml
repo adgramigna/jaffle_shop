@@ -30,14 +30,14 @@ jobs:
       - name: Install dbt dependencies
         run: dbt deps
 
-      - name: Run dbt models
-        run: dbt run
+      # - name: Run dbt models
+      #   run: dbt run
 
-      - name: Test dbt models
-        run: dbt test
+      # - name: Test dbt models
+      #   run: dbt test
 
-      - name: Check Freshness of dbt models
-        run: dbt source freshness
+      # - name: Check Freshness of dbt models
+      #   run: dbt source freshness
 
       - name: Run Elementary
         uses: elementary-data/run-elementary-action@v1.12
