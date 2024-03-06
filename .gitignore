@@ -14,3 +14,5 @@ old-artifacts/
 edr_target/
 
 .env
+
+rsa_key.p8
