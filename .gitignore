@@ -14,3 +14,4 @@ old-artifacts/
 .env
 
 rsa_key.p8
+package-lock.yml
